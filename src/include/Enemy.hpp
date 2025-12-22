@@ -1,0 +1,32 @@
+#pragma once
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
+#include <glm/glm.hpp>
+
+#include "myEBO.hpp"
+#include "myShader.hpp"
+#include "myVAO.hpp"
+#include "myVBO.hpp"
+class Enemy
+{
+public:
+    void init();
+    void Update(float p_dt);
+    void destory();
+
+
+    glm::vec2 getPosition();
+    glm::vec2 getSize();
+private:
+    void Ai(float p_dt);
+    void Render();
+
+    myShader m_Sh;
+    myVBO    m_B;
+    myVAO    m_A;
+    myEBO    m_E;
+
+    glm::vec2 m_Position;
+    float m_Velocity;
+    glm::vec2 m_size;
+};

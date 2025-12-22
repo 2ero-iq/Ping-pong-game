@@ -1,0 +1,2257 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/bin/"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/sbin/"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      - "/home/zero/node_modules/.bin/"
+      - "/home/zero/go/"
+      - "/home/zero/.AndroidSdk/platform-tools/"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/"
+      - "/home/zero/go/bin/"
+      - "/home/zero/Applications/cc65/bin/"
+      - "/home/zero/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/bin/"
+    searched_directories:
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/bin/uname"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/sbin/uname"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/uname"
+      - "/home/zero/node_modules/.bin/uname"
+      - "/home/zero/go/uname"
+      - "/home/zero/.AndroidSdk/platform-tools/uname"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/uname"
+      - "/home/zero/go/bin/uname"
+      - "/home/zero/Applications/cc65/bin/uname"
+      - "/home/zero/.cargo/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    message: |
+      The system is: Linux - 6.18.2-arch2-1 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/bin/"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/sbin/"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      - "/home/zero/node_modules/.bin/"
+      - "/home/zero/go/"
+      - "/home/zero/.AndroidSdk/platform-tools/"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/"
+      - "/home/zero/go/bin/"
+      - "/home/zero/Applications/cc65/bin/"
+      - "/home/zero/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/bin/gmake"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/sbin/gmake"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/gmake"
+      - "/home/zero/node_modules/.bin/gmake"
+      - "/home/zero/go/gmake"
+      - "/home/zero/.AndroidSdk/platform-tools/gmake"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/gmake"
+      - "/home/zero/go/bin/gmake"
+      - "/home/zero/Applications/cc65/bin/gmake"
+      - "/home/zero/.cargo/bin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/usr/bin/site_perl/gmake"
+      - "/usr/bin/vendor_perl/gmake"
+      - "/usr/bin/core_perl/gmake"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/bin/make"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/sbin/make"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/make"
+      - "/home/zero/node_modules/.bin/make"
+      - "/home/zero/go/make"
+      - "/home/zero/.AndroidSdk/platform-tools/make"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/make"
+      - "/home/zero/go/bin/make"
+      - "/home/zero/Applications/cc65/bin/make"
+      - "/home/zero/.cargo/bin/make"
+      - "/usr/local/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang++"
+    candidate_directories:
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/bin/"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/sbin/"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      - "/home/zero/node_modules/.bin/"
+      - "/home/zero/go/"
+      - "/home/zero/.AndroidSdk/platform-tools/"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/"
+      - "/home/zero/go/bin/"
+      - "/home/zero/Applications/cc65/bin/"
+      - "/home/zero/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/bin/clang++"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/sbin/clang++"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/clang++"
+      - "/home/zero/node_modules/.bin/clang++"
+      - "/home/zero/go/clang++"
+      - "/home/zero/.AndroidSdk/platform-tools/clang++"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/clang++"
+      - "/home/zero/go/bin/clang++"
+      - "/home/zero/Applications/cc65/bin/clang++"
+      - "/home/zero/.cargo/bin/clang++"
+      - "/usr/local/bin/clang++"
+    found: "/usr/bin/clang++"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/zero/test/sdl3/build/CMakeFiles/4.2.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar"
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/zero/node_modules/.bin/"
+      - "/home/zero/go/"
+      - "/home/zero/.AndroidSdk/platform-tools/"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/"
+      - "/home/zero/go/bin/"
+      - "/home/zero/Applications/cc65/bin/"
+      - "/home/zero/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/llvm-ar"
+      - "/home/zero/node_modules/.bin/llvm-ar"
+      - "/home/zero/go/llvm-ar"
+      - "/home/zero/.AndroidSdk/platform-tools/llvm-ar"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/llvm-ar"
+      - "/home/zero/go/bin/llvm-ar"
+      - "/home/zero/Applications/cc65/bin/llvm-ar"
+      - "/home/zero/.cargo/bin/llvm-ar"
+      - "/usr/local/bin/llvm-ar"
+      - "/usr/bin/site_perl/llvm-ar"
+      - "/usr/bin/vendor_perl/llvm-ar"
+      - "/usr/bin/core_perl/llvm-ar"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/zero/node_modules/.bin/"
+      - "/home/zero/go/"
+      - "/home/zero/.AndroidSdk/platform-tools/"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/"
+      - "/home/zero/go/bin/"
+      - "/home/zero/Applications/cc65/bin/"
+      - "/home/zero/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/llvm-ranlib"
+      - "/home/zero/node_modules/.bin/llvm-ranlib"
+      - "/home/zero/go/llvm-ranlib"
+      - "/home/zero/.AndroidSdk/platform-tools/llvm-ranlib"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/llvm-ranlib"
+      - "/home/zero/go/bin/llvm-ranlib"
+      - "/home/zero/Applications/cc65/bin/llvm-ranlib"
+      - "/home/zero/.cargo/bin/llvm-ranlib"
+      - "/usr/local/bin/llvm-ranlib"
+      - "/usr/bin/site_perl/llvm-ranlib"
+      - "/usr/bin/vendor_perl/llvm-ranlib"
+      - "/usr/bin/core_perl/llvm-ranlib"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-strip"
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/zero/node_modules/.bin/"
+      - "/home/zero/go/"
+      - "/home/zero/.AndroidSdk/platform-tools/"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/"
+      - "/home/zero/go/bin/"
+      - "/home/zero/Applications/cc65/bin/"
+      - "/home/zero/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/llvm-strip"
+      - "/home/zero/node_modules/.bin/llvm-strip"
+      - "/home/zero/go/llvm-strip"
+      - "/home/zero/.AndroidSdk/platform-tools/llvm-strip"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/llvm-strip"
+      - "/home/zero/go/bin/llvm-strip"
+      - "/home/zero/Applications/cc65/bin/llvm-strip"
+      - "/home/zero/.cargo/bin/llvm-strip"
+      - "/usr/local/bin/llvm-strip"
+      - "/usr/bin/site_perl/llvm-strip"
+      - "/usr/bin/vendor_perl/llvm-strip"
+      - "/usr/bin/core_perl/llvm-strip"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/zero/node_modules/.bin/"
+      - "/home/zero/go/"
+      - "/home/zero/.AndroidSdk/platform-tools/"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/"
+      - "/home/zero/go/bin/"
+      - "/home/zero/Applications/cc65/bin/"
+      - "/home/zero/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/ld.lld"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-nm"
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/zero/node_modules/.bin/"
+      - "/home/zero/go/"
+      - "/home/zero/.AndroidSdk/platform-tools/"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/"
+      - "/home/zero/go/bin/"
+      - "/home/zero/Applications/cc65/bin/"
+      - "/home/zero/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/llvm-nm"
+      - "/home/zero/node_modules/.bin/llvm-nm"
+      - "/home/zero/go/llvm-nm"
+      - "/home/zero/.AndroidSdk/platform-tools/llvm-nm"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/llvm-nm"
+      - "/home/zero/go/bin/llvm-nm"
+      - "/home/zero/Applications/cc65/bin/llvm-nm"
+      - "/home/zero/.cargo/bin/llvm-nm"
+      - "/usr/local/bin/llvm-nm"
+      - "/usr/bin/site_perl/llvm-nm"
+      - "/usr/bin/vendor_perl/llvm-nm"
+      - "/usr/bin/core_perl/llvm-nm"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/zero/node_modules/.bin/"
+      - "/home/zero/go/"
+      - "/home/zero/.AndroidSdk/platform-tools/"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/"
+      - "/home/zero/go/bin/"
+      - "/home/zero/Applications/cc65/bin/"
+      - "/home/zero/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/llvm-objdump"
+      - "/home/zero/node_modules/.bin/llvm-objdump"
+      - "/home/zero/go/llvm-objdump"
+      - "/home/zero/.AndroidSdk/platform-tools/llvm-objdump"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/llvm-objdump"
+      - "/home/zero/go/bin/llvm-objdump"
+      - "/home/zero/Applications/cc65/bin/llvm-objdump"
+      - "/home/zero/.cargo/bin/llvm-objdump"
+      - "/usr/local/bin/llvm-objdump"
+      - "/usr/bin/site_perl/llvm-objdump"
+      - "/usr/bin/vendor_perl/llvm-objdump"
+      - "/usr/bin/core_perl/llvm-objdump"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/zero/node_modules/.bin/"
+      - "/home/zero/go/"
+      - "/home/zero/.AndroidSdk/platform-tools/"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/"
+      - "/home/zero/go/bin/"
+      - "/home/zero/Applications/cc65/bin/"
+      - "/home/zero/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/llvm-objcopy"
+      - "/home/zero/node_modules/.bin/llvm-objcopy"
+      - "/home/zero/go/llvm-objcopy"
+      - "/home/zero/.AndroidSdk/platform-tools/llvm-objcopy"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/llvm-objcopy"
+      - "/home/zero/go/bin/llvm-objcopy"
+      - "/home/zero/Applications/cc65/bin/llvm-objcopy"
+      - "/home/zero/.cargo/bin/llvm-objcopy"
+      - "/usr/local/bin/llvm-objcopy"
+      - "/usr/bin/site_perl/llvm-objcopy"
+      - "/usr/bin/vendor_perl/llvm-objcopy"
+      - "/usr/bin/core_perl/llvm-objcopy"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/zero/node_modules/.bin/"
+      - "/home/zero/go/"
+      - "/home/zero/.AndroidSdk/platform-tools/"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/"
+      - "/home/zero/go/bin/"
+      - "/home/zero/Applications/cc65/bin/"
+      - "/home/zero/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/llvm-readelf"
+      - "/home/zero/node_modules/.bin/llvm-readelf"
+      - "/home/zero/go/llvm-readelf"
+      - "/home/zero/.AndroidSdk/platform-tools/llvm-readelf"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/llvm-readelf"
+      - "/home/zero/go/bin/llvm-readelf"
+      - "/home/zero/Applications/cc65/bin/llvm-readelf"
+      - "/home/zero/.cargo/bin/llvm-readelf"
+      - "/usr/local/bin/llvm-readelf"
+      - "/usr/bin/site_perl/llvm-readelf"
+      - "/usr/bin/vendor_perl/llvm-readelf"
+      - "/usr/bin/core_perl/llvm-readelf"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/zero/node_modules/.bin/"
+      - "/home/zero/go/"
+      - "/home/zero/.AndroidSdk/platform-tools/"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/"
+      - "/home/zero/go/bin/"
+      - "/home/zero/Applications/cc65/bin/"
+      - "/home/zero/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/llvm-dlltool"
+      - "/home/zero/node_modules/.bin/llvm-dlltool"
+      - "/home/zero/go/llvm-dlltool"
+      - "/home/zero/.AndroidSdk/platform-tools/llvm-dlltool"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/llvm-dlltool"
+      - "/home/zero/go/bin/llvm-dlltool"
+      - "/home/zero/Applications/cc65/bin/llvm-dlltool"
+      - "/home/zero/.cargo/bin/llvm-dlltool"
+      - "/usr/local/bin/llvm-dlltool"
+      - "/usr/bin/site_perl/llvm-dlltool"
+      - "/usr/bin/vendor_perl/llvm-dlltool"
+      - "/usr/bin/core_perl/llvm-dlltool"
+      - "/usr/bin/dlltool"
+      - "/home/zero/node_modules/.bin/dlltool"
+      - "/home/zero/go/dlltool"
+      - "/home/zero/.AndroidSdk/platform-tools/dlltool"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/dlltool"
+      - "/home/zero/go/bin/dlltool"
+      - "/home/zero/Applications/cc65/bin/dlltool"
+      - "/home/zero/.cargo/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/bin/site_perl/dlltool"
+      - "/usr/bin/vendor_perl/dlltool"
+      - "/usr/bin/core_perl/dlltool"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/zero/node_modules/.bin/"
+      - "/home/zero/go/"
+      - "/home/zero/.AndroidSdk/platform-tools/"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/"
+      - "/home/zero/go/bin/"
+      - "/home/zero/Applications/cc65/bin/"
+      - "/home/zero/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/llvm-addr2line"
+      - "/home/zero/node_modules/.bin/llvm-addr2line"
+      - "/home/zero/go/llvm-addr2line"
+      - "/home/zero/.AndroidSdk/platform-tools/llvm-addr2line"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/llvm-addr2line"
+      - "/home/zero/go/bin/llvm-addr2line"
+      - "/home/zero/Applications/cc65/bin/llvm-addr2line"
+      - "/home/zero/.cargo/bin/llvm-addr2line"
+      - "/usr/local/bin/llvm-addr2line"
+      - "/usr/bin/site_perl/llvm-addr2line"
+      - "/usr/bin/vendor_perl/llvm-addr2line"
+      - "/usr/bin/core_perl/llvm-addr2line"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/zero/node_modules/.bin/"
+      - "/home/zero/go/"
+      - "/home/zero/.AndroidSdk/platform-tools/"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/"
+      - "/home/zero/go/bin/"
+      - "/home/zero/Applications/cc65/bin/"
+      - "/home/zero/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/home/zero/node_modules/.bin/tapi"
+      - "/home/zero/go/tapi"
+      - "/home/zero/.AndroidSdk/platform-tools/tapi"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/tapi"
+      - "/home/zero/go/bin/tapi"
+      - "/home/zero/Applications/cc65/bin/tapi"
+      - "/home/zero/.cargo/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/bin/site_perl/tapi"
+      - "/usr/bin/vendor_perl/tapi"
+      - "/usr/bin/core_perl/tapi"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-21.1"
+      - "llvm-ar-21"
+      - "llvm-ar21"
+      - "llvm-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/zero/node_modules/.bin/"
+      - "/home/zero/go/"
+      - "/home/zero/.AndroidSdk/platform-tools/"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/"
+      - "/home/zero/go/bin/"
+      - "/home/zero/Applications/cc65/bin/"
+      - "/home/zero/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/llvm-ar-21.1"
+      - "/home/zero/node_modules/.bin/llvm-ar-21.1"
+      - "/home/zero/go/llvm-ar-21.1"
+      - "/home/zero/.AndroidSdk/platform-tools/llvm-ar-21.1"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/llvm-ar-21.1"
+      - "/home/zero/go/bin/llvm-ar-21.1"
+      - "/home/zero/Applications/cc65/bin/llvm-ar-21.1"
+      - "/home/zero/.cargo/bin/llvm-ar-21.1"
+      - "/usr/local/bin/llvm-ar-21.1"
+      - "/usr/bin/site_perl/llvm-ar-21.1"
+      - "/usr/bin/vendor_perl/llvm-ar-21.1"
+      - "/usr/bin/core_perl/llvm-ar-21.1"
+      - "/usr/bin/llvm-ar-21"
+      - "/home/zero/node_modules/.bin/llvm-ar-21"
+      - "/home/zero/go/llvm-ar-21"
+      - "/home/zero/.AndroidSdk/platform-tools/llvm-ar-21"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/llvm-ar-21"
+      - "/home/zero/go/bin/llvm-ar-21"
+      - "/home/zero/Applications/cc65/bin/llvm-ar-21"
+      - "/home/zero/.cargo/bin/llvm-ar-21"
+      - "/usr/local/bin/llvm-ar-21"
+      - "/usr/bin/site_perl/llvm-ar-21"
+      - "/usr/bin/vendor_perl/llvm-ar-21"
+      - "/usr/bin/core_perl/llvm-ar-21"
+      - "/usr/bin/llvm-ar21"
+      - "/home/zero/node_modules/.bin/llvm-ar21"
+      - "/home/zero/go/llvm-ar21"
+      - "/home/zero/.AndroidSdk/platform-tools/llvm-ar21"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/llvm-ar21"
+      - "/home/zero/go/bin/llvm-ar21"
+      - "/home/zero/Applications/cc65/bin/llvm-ar21"
+      - "/home/zero/.cargo/bin/llvm-ar21"
+      - "/usr/local/bin/llvm-ar21"
+      - "/usr/bin/site_perl/llvm-ar21"
+      - "/usr/bin/vendor_perl/llvm-ar21"
+      - "/usr/bin/core_perl/llvm-ar21"
+      - "/usr/bin/llvm-ar"
+      - "/home/zero/node_modules/.bin/llvm-ar"
+      - "/home/zero/go/llvm-ar"
+      - "/home/zero/.AndroidSdk/platform-tools/llvm-ar"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/llvm-ar"
+      - "/home/zero/go/bin/llvm-ar"
+      - "/home/zero/Applications/cc65/bin/llvm-ar"
+      - "/home/zero/.cargo/bin/llvm-ar"
+      - "/usr/local/bin/llvm-ar"
+      - "/usr/bin/site_perl/llvm-ar"
+      - "/usr/bin/vendor_perl/llvm-ar"
+      - "/usr/bin/core_perl/llvm-ar"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-21.1"
+      - "llvm-ranlib-21"
+      - "llvm-ranlib21"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/zero/node_modules/.bin/"
+      - "/home/zero/go/"
+      - "/home/zero/.AndroidSdk/platform-tools/"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/"
+      - "/home/zero/go/bin/"
+      - "/home/zero/Applications/cc65/bin/"
+      - "/home/zero/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/llvm-ranlib-21.1"
+      - "/home/zero/node_modules/.bin/llvm-ranlib-21.1"
+      - "/home/zero/go/llvm-ranlib-21.1"
+      - "/home/zero/.AndroidSdk/platform-tools/llvm-ranlib-21.1"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/llvm-ranlib-21.1"
+      - "/home/zero/go/bin/llvm-ranlib-21.1"
+      - "/home/zero/Applications/cc65/bin/llvm-ranlib-21.1"
+      - "/home/zero/.cargo/bin/llvm-ranlib-21.1"
+      - "/usr/local/bin/llvm-ranlib-21.1"
+      - "/usr/bin/site_perl/llvm-ranlib-21.1"
+      - "/usr/bin/vendor_perl/llvm-ranlib-21.1"
+      - "/usr/bin/core_perl/llvm-ranlib-21.1"
+      - "/usr/bin/llvm-ranlib-21"
+      - "/home/zero/node_modules/.bin/llvm-ranlib-21"
+      - "/home/zero/go/llvm-ranlib-21"
+      - "/home/zero/.AndroidSdk/platform-tools/llvm-ranlib-21"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/llvm-ranlib-21"
+      - "/home/zero/go/bin/llvm-ranlib-21"
+      - "/home/zero/Applications/cc65/bin/llvm-ranlib-21"
+      - "/home/zero/.cargo/bin/llvm-ranlib-21"
+      - "/usr/local/bin/llvm-ranlib-21"
+      - "/usr/bin/site_perl/llvm-ranlib-21"
+      - "/usr/bin/vendor_perl/llvm-ranlib-21"
+      - "/usr/bin/core_perl/llvm-ranlib-21"
+      - "/usr/bin/llvm-ranlib21"
+      - "/home/zero/node_modules/.bin/llvm-ranlib21"
+      - "/home/zero/go/llvm-ranlib21"
+      - "/home/zero/.AndroidSdk/platform-tools/llvm-ranlib21"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/llvm-ranlib21"
+      - "/home/zero/go/bin/llvm-ranlib21"
+      - "/home/zero/Applications/cc65/bin/llvm-ranlib21"
+      - "/home/zero/.cargo/bin/llvm-ranlib21"
+      - "/usr/local/bin/llvm-ranlib21"
+      - "/usr/bin/site_perl/llvm-ranlib21"
+      - "/usr/bin/vendor_perl/llvm-ranlib21"
+      - "/usr/bin/core_perl/llvm-ranlib21"
+      - "/usr/bin/llvm-ranlib"
+      - "/home/zero/node_modules/.bin/llvm-ranlib"
+      - "/home/zero/go/llvm-ranlib"
+      - "/home/zero/.AndroidSdk/platform-tools/llvm-ranlib"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/llvm-ranlib"
+      - "/home/zero/go/bin/llvm-ranlib"
+      - "/home/zero/Applications/cc65/bin/llvm-ranlib"
+      - "/home/zero/.cargo/bin/llvm-ranlib"
+      - "/usr/local/bin/llvm-ranlib"
+      - "/usr/bin/site_perl/llvm-ranlib"
+      - "/usr/bin/vendor_perl/llvm-ranlib"
+      - "/usr/bin/core_perl/llvm-ranlib"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-21.1"
+      - "clang-scan-deps-21"
+      - "clang-scan-deps21"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/zero/node_modules/.bin/"
+      - "/home/zero/go/"
+      - "/home/zero/.AndroidSdk/platform-tools/"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/"
+      - "/home/zero/go/bin/"
+      - "/home/zero/Applications/cc65/bin/"
+      - "/home/zero/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/clang-scan-deps-21.1"
+      - "/home/zero/node_modules/.bin/clang-scan-deps-21.1"
+      - "/home/zero/go/clang-scan-deps-21.1"
+      - "/home/zero/.AndroidSdk/platform-tools/clang-scan-deps-21.1"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/clang-scan-deps-21.1"
+      - "/home/zero/go/bin/clang-scan-deps-21.1"
+      - "/home/zero/Applications/cc65/bin/clang-scan-deps-21.1"
+      - "/home/zero/.cargo/bin/clang-scan-deps-21.1"
+      - "/usr/local/bin/clang-scan-deps-21.1"
+      - "/usr/bin/site_perl/clang-scan-deps-21.1"
+      - "/usr/bin/vendor_perl/clang-scan-deps-21.1"
+      - "/usr/bin/core_perl/clang-scan-deps-21.1"
+      - "/usr/bin/clang-scan-deps-21"
+      - "/home/zero/node_modules/.bin/clang-scan-deps-21"
+      - "/home/zero/go/clang-scan-deps-21"
+      - "/home/zero/.AndroidSdk/platform-tools/clang-scan-deps-21"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/clang-scan-deps-21"
+      - "/home/zero/go/bin/clang-scan-deps-21"
+      - "/home/zero/Applications/cc65/bin/clang-scan-deps-21"
+      - "/home/zero/.cargo/bin/clang-scan-deps-21"
+      - "/usr/local/bin/clang-scan-deps-21"
+      - "/usr/bin/site_perl/clang-scan-deps-21"
+      - "/usr/bin/vendor_perl/clang-scan-deps-21"
+      - "/usr/bin/core_perl/clang-scan-deps-21"
+      - "/usr/bin/clang-scan-deps21"
+      - "/home/zero/node_modules/.bin/clang-scan-deps21"
+      - "/home/zero/go/clang-scan-deps21"
+      - "/home/zero/.AndroidSdk/platform-tools/clang-scan-deps21"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/clang-scan-deps21"
+      - "/home/zero/go/bin/clang-scan-deps21"
+      - "/home/zero/Applications/cc65/bin/clang-scan-deps21"
+      - "/home/zero/.cargo/bin/clang-scan-deps21"
+      - "/usr/local/bin/clang-scan-deps21"
+      - "/usr/bin/site_perl/clang-scan-deps21"
+      - "/usr/bin/vendor_perl/clang-scan-deps21"
+      - "/usr/bin/core_perl/clang-scan-deps21"
+    found: "/usr/bin/clang-scan-deps"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/zero/test/sdl3/build/CMakeFiles/CMakeScratch/TryCompile-e2L7gv"
+      binary: "/home/zero/test/sdl3/build/CMakeFiles/CMakeScratch/TryCompile-e2L7gv"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/zero/test/sdl3/build/CMakeFiles/CMakeScratch/TryCompile-e2L7gv'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a3595/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_a3595.dir/build.make CMakeFiles/cmTC_a3595.dir/build
+        make[1]: Entering directory '/home/zero/test/sdl3/build/CMakeFiles/CMakeScratch/TryCompile-e2L7gv'
+        Building CXX object CMakeFiles/cmTC_a3595.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_a3595.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_a3595.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_a3595.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang version 21.1.6
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/bin
+        Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/15.2.1
+        Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1
+        Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1
+        Candidate multilib: .;@m64
+        Candidate multilib: 32;@m32
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/zero/test/sdl3/build/CMakeFiles/CMakeScratch/TryCompile-e2L7gv -v -fcoverage-compilation-dir=/home/zero/test/sdl3/build/CMakeFiles/CMakeScratch/TryCompile-e2L7gv -resource-dir /usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_a3595.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_a3595.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward -internal-isystem /usr/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a3595.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 21.1.6 based upon LLVM 21.1.6 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1
+         /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu
+         /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward
+         /usr/lib/clang/21/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Linking CXX executable cmTC_a3595
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3595.dir/link.txt --verbose=1
+        clang version 21.1.6
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/bin
+        Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/15.2.1
+        Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1
+        Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1
+        Candidate multilib: .;@m64
+        Candidate multilib: 32;@m32
+        Selected multilib: .;@m64
+         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a3595 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_a3595.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o
+        GNU ld (GNU Binutils) 2.45.1
+        /usr/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_a3595.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a3595
+        make[1]: Leaving directory '/home/zero/test/sdl3/build/CMakeFiles/CMakeScratch/TryCompile-e2L7gv'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1]
+          add: [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu]
+          add: [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward]
+          add: [/usr/lib/clang/21/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1] ==> [/usr/include/c++/15.2.1]
+        collapse include dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu] ==> [/usr/include/c++/15.2.1/x86_64-pc-linux-gnu]
+        collapse include dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward] ==> [/usr/include/c++/15.2.1/backward]
+        collapse include dir [/usr/lib/clang/21/include] ==> [/usr/lib/clang/21/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/15.2.1;/usr/include/c++/15.2.1/x86_64-pc-linux-gnu;/usr/include/c++/15.2.1/backward;/usr/lib/clang/21/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/zero/test/sdl3/build/CMakeFiles/CMakeScratch/TryCompile-e2L7gv']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a3595/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_a3595.dir/build.make CMakeFiles/cmTC_a3595.dir/build]
+        ignore line: [make[1]: Entering directory '/home/zero/test/sdl3/build/CMakeFiles/CMakeScratch/TryCompile-e2L7gv']
+        ignore line: [Building CXX object CMakeFiles/cmTC_a3595.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_a3595.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_a3595.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_a3595.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 21.1.6]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/bin]
+        ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/15.2.1]
+        ignore line: [Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1]
+        ignore line: [Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Candidate multilib: 32]
+        ignore line: [@m32]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/zero/test/sdl3/build/CMakeFiles/CMakeScratch/TryCompile-e2L7gv -v -fcoverage-compilation-dir=/home/zero/test/sdl3/build/CMakeFiles/CMakeScratch/TryCompile-e2L7gv -resource-dir /usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_a3595.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_a3595.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward -internal-isystem /usr/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a3595.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 21.1.6 based upon LLVM 21.1.6 default target x86_64-pc-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1]
+        ignore line: [ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu]
+        ignore line: [ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward]
+        ignore line: [ /usr/lib/clang/21/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_a3595]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3595.dir/link.txt --verbose=1]
+        ignore line: [clang version 21.1.6]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/bin]
+        ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/15.2.1]
+        ignore line: [Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1]
+        ignore line: [Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Candidate multilib: 32]
+        ignore line: [@m32]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a3595 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_a3595.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_a3595] ==> ignore
+          arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o]
+          arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o]
+          arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
+          arg [-L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1] ==> dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1]
+          arg [-L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64] ==> dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib64] ==> dir [/usr/lib64]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_a3595.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o]
+          arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o] ==> [/usr/lib64/Scrt1.o]
+        collapse obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> [/usr/lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
+        collapse obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o] ==> [/usr/lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o]
+        collapse obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1] ==> [/usr/lib64/gcc/x86_64-pc-linux-gnu/15.2.1]
+        collapse library dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib64] ==> [/usr/lib64]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib64/Scrt1.o;/usr/lib64/crti.o;/usr/lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o;/usr/lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib64/gcc/x86_64-pc-linux-gnu/15.2.1;/usr/lib64;/lib64;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (PROJECT)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.45.1
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:517 (find_program)"
+      - "/usr/lib/cmake/SDL3/SDL3Config.cmake:100 (find_package)"
+      - "CMakeLists.txt:40 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/bin/"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/sbin/"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      - "/home/zero/node_modules/.bin/"
+      - "/home/zero/go/"
+      - "/home/zero/.AndroidSdk/platform-tools/"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/"
+      - "/home/zero/go/bin/"
+      - "/home/zero/Applications/cc65/bin/"
+      - "/home/zero/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/bin/pkg-config"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/bin/pkgconf"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/sbin/pkg-config"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/sbin/pkgconf"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/pkg-config"
+      - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/pkgconf"
+      - "/home/zero/node_modules/.bin/pkg-config"
+      - "/home/zero/node_modules/.bin/pkgconf"
+      - "/home/zero/go/pkg-config"
+      - "/home/zero/go/pkgconf"
+      - "/home/zero/.AndroidSdk/platform-tools/pkg-config"
+      - "/home/zero/.AndroidSdk/platform-tools/pkgconf"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/pkg-config"
+      - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin/pkgconf"
+      - "/home/zero/go/bin/pkg-config"
+      - "/home/zero/go/bin/pkgconf"
+      - "/home/zero/Applications/cc65/bin/pkg-config"
+      - "/home/zero/Applications/cc65/bin/pkgconf"
+      - "/home/zero/.cargo/bin/pkg-config"
+      - "/home/zero/.cargo/bin/pkgconf"
+      - "/usr/local/bin/pkg-config"
+      - "/usr/local/bin/pkgconf"
+    found: "/usr/bin/pkg-config"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "/usr/lib/cmake/SDL3/SDL3Config.cmake:102 (pkg_check_modules)"
+      - "CMakeLists.txt:40 (find_package)"
+    mode: "library"
+    variable: "pkgcfg_lib_PC_LIBUNWIND_unwind-generic"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "unwind-generic"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libunwind-generic.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "/usr/lib/cmake/SDL3/SDL3Config.cmake:102 (pkg_check_modules)"
+      - "CMakeLists.txt:40 (find_package)"
+    mode: "library"
+    variable: "pkgcfg_lib_PC_LIBUNWIND_unwind"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "unwind"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libunwind.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:40 (find_package)"
+    name: "SDL3"
+    configs:
+      -
+        filename: "SDL3Config.cmake"
+        kind: "cmake"
+      -
+        filename: "sdl3-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SDL3"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/zero/test/sdl3/build/CMakeFiles/pkgRedirects/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/zero/test/sdl3/build/CMakeFiles/pkgRedirects/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/zero/Applications/cc65/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/zero/Applications/cc65/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/zero/.cargo/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/zero/.cargo/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/SDL3_ttf/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/SDL3_ttf/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/usr/lib/cmake/SDL3/SDL3Config.cmake"
+      mode: "config"
+      version: "3.2.28"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:43 (find_package)"
+    name: "glad"
+    configs:
+      -
+        filename: "gladConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "glad-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "glad"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/zero/test/sdl3/build/CMakeFiles/pkgRedirects/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/zero/test/sdl3/build/CMakeFiles/pkgRedirects/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/zero/Applications/cc65/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/zero/Applications/cc65/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/zero/.cargo/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/zero/.cargo/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/glade/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/glade/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/share/glade/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/share/glade/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/site_perl/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/site_perl/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/vendor_perl/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/vendor_perl/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/core_perl/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/core_perl/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/lib/glade/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/lib/glade/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkgvcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "/home/zero/Applications/vcpkg/installed/x64-linux/share/spdlog/spdlogConfig.cmake:30 (find_package)"
+      - "CMakeLists.txt:46 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/zero/test/sdl3/build/CMakeFiles/CMakeScratch/TryCompile-4baS2r"
+      binary: "/home/zero/test/sdl3/build/CMakeFiles/CMakeScratch/TryCompile-4baS2r"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/zero/test/sdl3/build/CMakeFiles/CMakeScratch/TryCompile-4baS2r'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_38774/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_38774.dir/build.make CMakeFiles/cmTC_38774.dir/build
+        make[1]: Entering directory '/home/zero/test/sdl3/build/CMakeFiles/CMakeScratch/TryCompile-4baS2r'
+        Building CXX object CMakeFiles/cmTC_38774.dir/src.cxx.o
+        /usr/bin/clang++ -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_38774.dir/src.cxx.o -MF CMakeFiles/cmTC_38774.dir/src.cxx.o.d -o CMakeFiles/cmTC_38774.dir/src.cxx.o -c /home/zero/test/sdl3/build/CMakeFiles/CMakeScratch/TryCompile-4baS2r/src.cxx
+        Linking CXX executable cmTC_38774
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38774.dir/link.txt --verbose=1
+        /usr/bin/clang++ CMakeFiles/cmTC_38774.dir/src.cxx.o -o cmTC_38774
+        make[1]: Leaving directory '/home/zero/test/sdl3/build/CMakeFiles/CMakeScratch/TryCompile-4baS2r'
+        
+      exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/zero/Applications/vcpkg/installed/x64-linux/share/spdlog/spdlogConfig.cmake:38 (find_dependency)"
+      - "CMakeLists.txt:46 (find_package)"
+    name: "fmt"
+    configs:
+      -
+        filename: "fmtConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "fmt-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "fmt"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/zero/test/sdl3/build/CMakeFiles/pkgRedirects/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/zero/test/sdl3/build/CMakeFiles/pkgRedirects/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/zero/Applications/vcpkg/installed/x64-linux/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/zero/Applications/vcpkg/installed/x64-linux/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/zero/Applications/vcpkg/installed/x64-linux/share/fmt/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/zero/Applications/vcpkg/installed/x64-linux/share/fmt/fmt-config.cmake"
+      mode: "config"
+      version: "12.1.0"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:46 (find_package)"
+    name: "spdlog"
+    configs:
+      -
+        filename: "spdlogConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "spdlog-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "spdlog"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/zero/test/sdl3/build/CMakeFiles/pkgRedirects/spdlogConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/zero/test/sdl3/build/CMakeFiles/pkgRedirects/spdlog-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/zero/Applications/vcpkg/installed/x64-linux/spdlogConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/zero/Applications/vcpkg/installed/x64-linux/spdlog-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/zero/Applications/vcpkg/installed/x64-linux/share/spdlog/spdlogConfig.cmake"
+      mode: "config"
+      version: "1.16.0"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:49 (find_package)"
+    name: "glm"
+    configs:
+      -
+        filename: "glmConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "glm-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "glm"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/zero/test/sdl3/build/CMakeFiles/pkgRedirects/glmConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/zero/test/sdl3/build/CMakeFiles/pkgRedirects/glm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/zero/Applications/vcpkg/installed/x64-linux/glmConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/zero/Applications/vcpkg/installed/x64-linux/glm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/zero/Applications/vcpkg/installed/x64-linux/share/glm/glmConfig.cmake"
+      mode: "config"
+      version: "1.0.2"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/zero/Applications/vcpkg/installed/x64-linux/"
+      ENV{PATH}:
+        - "/home/zero/node_modules/.bin"
+        - "/home/zero/go"
+        - "/home/zero/.AndroidSdk/platform-tools"
+        - "/home/zero/Applications/android_tools/cmdline-tools/latest/bin"
+        - "/home/zero/go/bin"
+        - "/home/zero/Applications/cc65/bin"
+        - "/home/zero/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+...
