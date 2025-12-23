@@ -25,7 +25,7 @@ private:
     float m_DT          = 1.0f / 60.0f;
     float m_accumulator = 0.0f;
 
-    myWindow m_window;
+    // myWindow m_window;
     Player   myPlayer;
     Enemy    myEnemy;
     Ball     myBall;

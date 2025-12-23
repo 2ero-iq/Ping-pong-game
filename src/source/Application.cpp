@@ -20,7 +20,7 @@ void Application::init()
         SPDLOG_ERROR("COULD NOT INIT SDL");
     }
 
-    m_window.init();
+    myWindow::init();
 
     if (!gladLoadGLLoader((GLADloadproc)SDL_GL_GetProcAddress))
     {
@@ -46,7 +46,7 @@ void Application::Input()
             if(e.key.scancode == SDL_SCANCODE_ESCAPE)
                 is_running = false;
 
-        m_window.Input(&e);
+        myWindow::Input(&e);
     }
 }
 
@@ -55,11 +55,11 @@ void Application::Render()
     glClearColor(29 / 255.f, 32 / 255.f, 33 / 255.f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
 
-    myEnemy.Update(1.f / 60.f);
+    myEnemy.Update(1.f / 60.f,myBall.getPos());
     myBall.Update(1.f / 60.f);
     myPlayer.Update(1.f / 60.f);
 
-    m_window.Render();
+    myWindow::Render();
 }
 
 void Application::destory()
@@ -67,7 +67,7 @@ void Application::destory()
     myPlayer.destory();
     myEnemy.destory();
     myBall.destory();
-    m_window.destory();
+    myWindow::destory();
     SDL_Quit();
 }
 

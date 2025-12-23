@@ -14,9 +14,9 @@ Making the Ping pong game with Opengl (SDL3/Glad).
   - [x] Collision detection
   - [x] Collision Resolving
   - [x] Random Start.
-  - [ ] Impove the randomness (optional)
-- [ ] Make The Enemy
+  <!--- [ ] Impove the randomness (optional)-->
+- [x] Make The Enemy
   - [x] Render the Enemy
-  - [ ] Make the enemy AI
+  - [x] Make the enemy AI
 - [ ] Make the Ui
 - [ ] Make the Pause mode

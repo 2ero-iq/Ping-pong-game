@@ -7,7 +7,7 @@ SET(CMAKE_CXX_COMPILER clang++)
 
 
 PROJECT(
-    SDL3
+    PingPong
     LANGUAGES CXX
 )
 

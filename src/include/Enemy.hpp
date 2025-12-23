@@ -11,14 +11,14 @@ class Enemy
 {
 public:
     void init();
-    void Update(float p_dt);
+    void Update(float p_dt,const glm::vec2& p_ballPos);
     void destory();
 
 
     glm::vec2 getPosition();
     glm::vec2 getSize();
 private:
-    void Ai(float p_dt);
+    void Ai(float p_dt,const glm::vec2& p_ballPos);
     void Render();
 
     myShader m_Sh;

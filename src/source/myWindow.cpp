@@ -5,6 +5,9 @@
 #include <SDL3/SDL_video.h>
 #include <spdlog/spdlog.h>
 
+SDL_Window*   myWindow::m_window  = nullptr;
+SDL_GLContext myWindow::m_context = nullptr;
+
 
 void myWindow::init()
 {

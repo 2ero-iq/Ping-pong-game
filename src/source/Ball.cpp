@@ -115,6 +115,11 @@ void Ball::Update(float p_dt)
     m_Sh.unUseProgram();
 }
 
+glm::vec2 Ball::getPos()
+{
+    return (m_Position + m_size.y/2.f);
+}
+
 void Ball::destory()
 {
     m_Sh.unUseProgram();

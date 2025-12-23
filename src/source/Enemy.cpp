@@ -3,6 +3,7 @@
 #include "myWindow.hpp"
 
 #include <glad/glad.h>
+#include <glm/common.hpp>
 #include <glm/ext/matrix_clip_space.hpp>
 #include <glm/ext/matrix_transform.hpp>
 #include <glm/ext/vector_float2.hpp>
@@ -16,7 +17,7 @@ void Enemy::init()
 {
 
     m_size     = glm::vec2(25, 100);
-    m_Velocity = 200;
+    m_Velocity = 0;
     m_Position = glm::vec2(0, (HEIGHT - m_size.y) / 2.f);
 
     float l_vertices[] = {
@@ -44,30 +45,22 @@ void Enemy::init()
     m_E.unbind();
 }
 
-void Enemy::Ai(float p_dt)
+void Enemy::Ai(float p_dt,const glm::vec2& p_ballPos)
 {
-    // const bool* key = SDL_GetKeyboardState(nullptr);
+    if ((m_Position.y + m_size.y/2.f) > p_ballPos.y)
+    {
+        m_Velocity -= 5;
+    }
+    else
+    {
+        m_Velocity += 5;
+    }
 
-    // if (key[SDL_SCANCODE_UP] && m_Position.y >= 0)
-    // {
-    //     m_Position.y -= m_Velocity * p_dt;
-    // }
+    m_Velocity = glm::clamp(m_Velocity,-100.f,100.f);
 
-    // if (key[SDL_SCANCODE_DOWN] && m_Position.y <= HEIGHT - m_size.y)
-    // {
-    //     m_Position.y += m_Velocity * p_dt;
-    // }
+    m_Position.y += m_Velocity * p_dt;
 
-
-    // if (key[SDL_SCANCODE_LEFT] && m_Position.x >= 0)
-    // {
-    //     m_Position.x -= m_Velocity * p_dt;
-    // }
-
-    // if (key[SDL_SCANCODE_RIGHT] && m_Position.y <= WIDTH - m_size.x)
-    // {
-    //     m_Position.x += m_Velocity * p_dt;
-    // }
+    m_Position.y = glm::clamp( m_Position.y, 0.0f, HEIGHT - m_size.y );
 }
 
 void Enemy::Render()
@@ -81,9 +74,9 @@ void Enemy::Render()
 }
 
 
-void Enemy::Update(float p_dt)
+void Enemy::Update(float p_dt,const glm::vec2& p_ballPos)
 {
-    Ai(p_dt);
+    Ai(p_dt,p_ballPos);
 
     m_Sh.doUseProgram();
     glm::mat4 Projection = glm::ortho(0.0f, WIDTH, // X

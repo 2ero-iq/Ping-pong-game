@@ -8,13 +8,15 @@
 class myWindow
 {
 public:
-    void init();
-    void Input(SDL_Event* p_event);
-    void Render();
-    void destory();
+    myWindow() = default;
+    ~myWindow() = default;
+    static void init();
+    static void Input(SDL_Event* p_event);
+    static void Render();
+    static void destory();
 
 private:
 
-    SDL_Window*   m_window;
-    SDL_GLContext m_context;
+    static SDL_Window*   m_window;
+    static SDL_GLContext m_context;
 };
