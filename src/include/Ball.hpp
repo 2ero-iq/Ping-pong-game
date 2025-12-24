@@ -16,14 +16,14 @@ class Ball
 {
 public:
     void init(Player* p_Player, Enemy* p_Enemy);
+    void Movement(float p_dt);
     void Update(float p_dt);
+    void Render();
     void destory();
 
     glm::vec2 getPos();
 
 private:
-    void Movement(float p_dt);
-    void Render();
 
     myShader m_Sh;
     myVBO    m_B;

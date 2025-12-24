@@ -1,5 +1,4 @@
 #include "Player.hpp"
-#include <miniaudio.h>
 
 #include "myWindow.hpp"
 
@@ -52,21 +51,10 @@ void Player::Input(float p_dt)
     }
 }
 
-void Player::Render()
-{
-    m_Sh.doUseProgram();
-    m_A.bind();
-    m_E.bind();
-    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
-
-    m_A.unbind();
-}
 
 
 void Player::Update(float p_dt)
 {
-    Input(p_dt);
-
     m_Sh.doUseProgram();
     glm::mat4 Projection = glm::ortho(0.0f, WIDTH,  // X
                                       HEIGHT, 0.0f, // Y
@@ -80,8 +68,17 @@ void Player::Update(float p_dt)
     glUniformMatrix4fv(ProjLoc,1,GL_FALSE,glm::value_ptr(Projection));
     glUniformMatrix4fv(ModLoc,1,GL_FALSE,glm::value_ptr(Model));
 
+    m_Sh.unUseProgram();
+}
 
-    Render();
+void Player::Render()
+{
+    m_Sh.doUseProgram();
+    m_A.bind();
+    m_E.bind();
+    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+
+    m_A.unbind();
     m_Sh.unUseProgram();
 }
 

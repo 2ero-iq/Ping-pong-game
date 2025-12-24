@@ -63,21 +63,10 @@ void Enemy::Ai(float p_dt,const glm::vec2& p_ballPos)
     m_Position.y = glm::clamp( m_Position.y, 0.0f, HEIGHT - m_size.y );
 }
 
-void Enemy::Render()
-{
-    m_Sh.doUseProgram();
-    m_A.bind();
-    m_E.bind();
-    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
-
-    m_A.unbind();
-}
 
 
 void Enemy::Update(float p_dt,const glm::vec2& p_ballPos)
 {
-    Ai(p_dt,p_ballPos);
-
     m_Sh.doUseProgram();
     glm::mat4 Projection = glm::ortho(0.0f, WIDTH, // X
                                       HEIGHT, 0.0f, // Y
@@ -91,7 +80,17 @@ void Enemy::Update(float p_dt,const glm::vec2& p_ballPos)
     glUniformMatrix4fv(ProjLoc, 1, GL_FALSE, glm::value_ptr(Projection));
     glUniformMatrix4fv(ModLoc, 1, GL_FALSE, glm::value_ptr(Model));
 
-    Render();
+    m_Sh.unUseProgram();
+}
+
+void Enemy::Render()
+{
+    m_Sh.doUseProgram();
+    m_A.bind();
+    m_E.bind();
+    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+
+    m_A.unbind();
     m_Sh.unUseProgram();
 }
 

@@ -1,3 +1,9 @@
 .cache
 .zed
 build
+external
+test.json
+vcpkg.json
+Dockerfile
+.dockerignore
+Ping

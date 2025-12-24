@@ -11,15 +11,15 @@ class Player
 {
 public:
     void init();
+    void Input(float p_dt);
     void Update(float p_dt);
+    void Render();
     void destory();
 
     glm::vec2 getPosition();
     glm::vec2 getSize();
 
 private:
-    void Input(float p_dt);
-    void Render();
 
     myShader m_Sh;
     myVBO    m_B;

@@ -21,8 +21,6 @@ void Ball::init(Player* p_Player, Enemy* p_Enemy)
     float speed = 100;
     m_Velocity *= speed;
 
-    SPDLOG_INFO("angle: {}",angle);
-    SPDLOG_INFO("x: {}, y: {}",m_Velocity.x,m_Velocity.y);
     // m_Velocity.y = glm::sin(angleY);
 
 
@@ -76,27 +74,17 @@ void Ball::Movement(float p_dt)
         )
     )
     {
+        m_Velocity += 10;
         m_Velocity.x *= -1;
     }
 
     m_Position += m_Velocity * p_dt;
 }
 
-void Ball::Render()
-{
-    m_Sh.doUseProgram();
-    m_A.bind();
-    m_E.bind();
-    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
-
-    m_A.unbind();
-}
 
 
 void Ball::Update(float p_dt)
 {
-    Movement(p_dt);
-
     m_Sh.doUseProgram();
     glm::mat4 Projection = glm::ortho(0.0f, WIDTH,  // X
                                       HEIGHT, 0.0f, // Y
@@ -110,8 +98,18 @@ void Ball::Update(float p_dt)
     glUniformMatrix4fv(ProjLoc,1,GL_FALSE,glm::value_ptr(Projection));
     glUniformMatrix4fv(ModLoc,1,GL_FALSE,glm::value_ptr(Model));
 
+    m_Sh.unUseProgram();
 
-    Render();
+}
+
+void Ball::Render()
+{
+    m_Sh.doUseProgram();
+    m_A.bind();
+    m_E.bind();
+    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+
+    m_A.unbind();
     m_Sh.unUseProgram();
 }
 
